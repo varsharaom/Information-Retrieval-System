@@ -8,8 +8,7 @@ Information Retrieval System:
 	Also, each model modifies the term weighting in a manner to either include or exclude relevance judgements. Though our retrieval
 	models are not yet advanced to read the relevance judgments at real-time, we have ignored them during the effectiveness evaluation.
 
-	The Query Expansion is another technique to improve the input to these, in which, we have psuedo-relevance feedback to generate the
-	terms which have higher probability to co-occur.
+	The Query Expansion is another technique to improve the input to these, in which, we have psuedo-relevance feedback to generate the terms which have higher probability to co-occur.
 
 	The user-results are displayed in an HTML page, where the resultant document's content can be viewed in an snippet. The important terms
 	or in other words, highly frequent terms are highlighted in the displayed snippets.
