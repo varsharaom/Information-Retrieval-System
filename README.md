@@ -14,9 +14,7 @@ Information Retrieval System:<br>
 	models are not yet advanced to read the relevance judgments at real-time, we have ignored them during the effectiveness evaluation.
 	</p>
 	<p>
-
-	The Query Expansion is another technique to improve the input to these, in which, we have psuedo-relevance feedback to generate the terms which have higher probability to co-occur.
-</p>
+	The Query Expansion is another technique to improve the input to these, in which, we have psuedo-relevance feedback to generate the terms which have higher probability to co-occur.</p>
 <p>
 	The user-results are displayed in an HTML page, where the resultant document's content can be viewed in an snippet. The important   terms or in other words, highly frequent terms are highlighted in the displayed snippets.
 </p>
