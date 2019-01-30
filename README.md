@@ -58,7 +58,7 @@ Folder Structure: (ordered by their name)
 	<li>	Retrieval_Model	: This folder consists of the core search information and tasks for all the information retrieval systems.</li>
   <li>Stemming_and_Stopping :	This folder consists of the files which represent the python scripts used to perform the stemming and stopping on the corpus and induce those as the input to the information retrieval systems.</li>
 </ul></li>
-	<li>Snippet_Generation : This folder consists of the pythin scripts which are used to generate snippets and publish the results of a query in an HTML file.</li>
+	<li>Snippet_Generation : This folder consists of the python scripts which are used to generate snippets and publish the results of a query in an HTML file.</li>
 	<li>utilities	:	This folder represents the intermediate python scripts and queries which are used to provide as an input to the retrieval systems tasks.</li>
 
 </ul>
