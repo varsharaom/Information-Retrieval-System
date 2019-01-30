@@ -1,5 +1,5 @@
 # Information-Retrieval-System
-Source code for the Information Retrieval Project<br>
+
 Information Retrieval System:<br>
 	<p>This project includeds the methodology to build and compare multiple information systems. Which includes:
 	<ol>
