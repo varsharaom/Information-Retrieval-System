@@ -22,23 +22,18 @@ Information Retrieval System:
 
 Folder Structure: (ordered by their name)
 
-	Corpuses			This folder consists of files which act as the Corpus for the above mentioned 
-						information retrieval system.
-	Evaluation 			This folder consists of files which are used to evaluate the systems.
-		
-		Files 			This sub-folder consists of intermediatory files which are used to calculate 
-						the effectiveness results of the systems.
-		Output			This sub-folder consists of the files which are the result of performing effectiveness
-						calculation as mentioned above. Each system is prefixed with their measure.
+	Corpuses : This folder consists of files which act as the Corpus for the above mentioned information retrieval system.
+	Evaluation : This folder consists of files which are used to evaluate the systems.
+	Files : This sub-folder consists of intermediatory files which are used to calculate the effectiveness results of the systems.
+	Output : This sub-folder consists of the files which are the result of performing effectiveness calculation as mentioned above.                  Each system is prefixed with their measure.
 						
-						For example:
-							evaluation_results.txt 			consists of the evaluation values of Mean Average Precision and Mean Reciprocal Rank.
-							precision_at_rank_5_20_BM25		reflects the file which consists of precision values at rank = 5 and rank = 20 for the all the queries given as input to the BM25.
+	   For example:
+		evaluation_results.txt : consists of the evaluation values of Mean Average Precision and Mean Reciprocal Rank.
+		precision_at_rank_5_20_BM25 : reflects the file which consists of precision values at rank = 5 and rank = 20 for the all                                               the queries given as input to the BM25.
 
-	Extra_Credit			This folder consists of the code and output files generated for the project's extra-credit task.
-		
-		Noise-Generator		This folder consists of the python scripts and output files which are the representation of noise-generator model.
-		Noise-Minimizer		This folder consists of the python scripts and output files which are the representation of the noise-minimzer model.
+	        Extra_Credit :	This folder consists of the code and output files generated for the project's extra-credit task.
+		Noise-Generator	: This folder consists of the python scripts and output files which are the representation of noise-                                       generator model.
+		Noise-Minimizer	: This folder consists of the python scripts and output files which are the representation of the noise-                                   minimizer model.
 
 	Indexes				This folder consists of the intermediate files which are used to calculate the resultant scores for a query by any search system.
 
