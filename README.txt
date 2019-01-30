@@ -20,10 +20,9 @@ Information Retrieval System:
 
 	Their respective precision and recall values are also displayed in the seperate text file for any future evaluation purposes.
 
-Folder Structure: (ordered by their name)
+        Folder Structure: (ordered by their name)
 
-	Corpuses : This folder consists of files which act as the Corpus for the above mentioned information retrieval system.
-	Evaluation : This folder consists of files which are used to evaluate the systems.
+	Corpuses : This folder consists of files which act as the Corpus for the above mentioned information retrieval system.        		Evaluation : This folder consists of files which are used to evaluate the systems.
 	Files : This sub-folder consists of intermediatory files which are used to calculate the effectiveness results of the systems.
 	Output : This sub-folder consists of the files which are the result of performing effectiveness calculation as mentioned above.                  Each system is prefixed with their measure.
 						
@@ -34,19 +33,18 @@ Folder Structure: (ordered by their name)
 	        Extra_Credit :	This folder consists of the code and output files generated for the project's extra-credit task.
 		Noise-Generator	: This folder consists of the python scripts and output files which are the representation of noise-                                       generator model.
 		Noise-Minimizer	: This folder consists of the python scripts and output files which are the representation of the noise-                                   minimizer model.
+	        Indexes	: This folder consists of the intermediate files which are used to calculate the resultant scores for a query by any search system.
 
-	Indexes				This folder consists of the intermediate files which are used to calculate the resultant scores for a query by any search system.
+	 Retrieval : This folder is a representation of the core activites of all the information retrieval systems.
 
-	Retrieval 			This folder is a representation of the core activites of all the information retrieval systems.
-
-		Query_Expansion			This folder represents the python scripts and output files which are used to generate the Query-time stemming model.
+	 Query_Expansion : This folder represents the python scripts and output files which are used to generate the Query-time stemming model.
 		
-		Retrieval_Model			This folder consists of the core search information and tasks for all the information retrieval systems.
+	 Retrieval_Model : This folder consists of the core search information and tasks for all the information retrieval systems.
 
-		Stemming_and_Stopping	This folder consists of the files which represent the python scripts used to perform the stemming and stopping on the corpus and induce those as the input to the information retrieval systems.
+	 Stemming_and_Stopping : This folder consists of the files which represent the python scripts used to perform the stemming and stopping on the corpus and induce those as the input to the information retrieval systems.
 
-	Snippet_Generation	This folder consists of the pythin scripts which are used to generate snippets and publish the results of a query in an HTML file.
-	utilities			This folder represents the intermediate python scripts and queries which are used to provide as an input to the retrieval systems tasks.
+	Snippet_Generation : This folder consists of the pythin scripts which are used to generate snippets and publish the results of a query in an HTML file.
+	utilities : This folder represents the intermediate python scripts and queries which are used to provide as an input to the retrieval systems tasks.
 
 
 Execution:
