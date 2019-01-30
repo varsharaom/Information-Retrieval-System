@@ -38,11 +38,13 @@ Folder Structure: (ordered by their name)
 															rank = 20 for the all the queries given as input to the BM25.
      </li>                         
      </ul>
-	<li>Extra_Credit	:	This folder consists of the code and output files generated for the project's extra-credit task.</li>
+	<li>Extra_Credit	:	This folder consists of the code and output files generated for the project's extra-credit task.
 		<ul>
 	<li>Noise-Generator	:	This folder consists of the python scripts and output files which are the representation of noise-generator model.</li>
 	<li>Noise-Minimizer	:	This folder consists of the python scripts and output files which are the representation of the noise-minimizer model.</li>
+			
   </ul>
+  </li>
 	<li>Indexes	:	This folder consists of the intermediate files which are used to calculate the resultant scores for a query by any
 						search system.</li>
 <li>
@@ -79,40 +81,52 @@ Execution: <br>
 	</ul>	
 	</li>	
 	<li>In the Retrieval/Retrieval_Model Folder of the project, 
-	1. Executing BM25_Information system:
-		$python preprocessor.py
-		$python search.py
-	2. Executing TFIDF Information Systen:
-		$python TF_IDF_Retrieval.py
-	3. Executing the Smoothed Query Likelihood Model
-		$python SQ_Likelihood_Calculator.py
-	4. Executing the Lucene Search Engine
-		$javac -cp *; LuceneSearchEngine.java
+		<ol>
+	<li> Executing BM25_Information system:
+		$python preprocessor.py<br>
+		$python search.py</li>
+	<li>Executing TFIDF Information System:<br>
+		$python TF_IDF_Retrieval.py</li>
+	<li>Executing the Smoothed Query Likelihood Model<br>
+		$python SQ_Likelihood_Calculator.py</li>
+	<li>Executing the Lucene Search Engine:<br>
+		$javac -cp *; LuceneSearchEngine.java<br>
 		$java -cp *; LuceneSearchEngine
+			</li>
+		</ol>
         </li>
-	<li>To execute the Query_Expansion Model, redirect to Retrieval/Query_Expansion from the project root directory,</li>
-		$python Task-2.py
-
-	<li>To execute the Snippet_Highlighting, redirect to Snippet_Generation from the project root directory</li>
+	<li>To execute the Query_Expansion Model, redirect to Retrieval/Query_Expansion from the project root directory,<br>
+	$python Task-2.py
+</li>
+	<li>To execute the Snippet_Highlighting, redirect to Snippet_Generation from the project root directory<br>
 		$python SnippetGeneration_Highlighting.py
-
+        </li>
 	<li>To execute the Stemming and Stopping runs, redirect to Retrieval/Stemming_and_Stopping/ and execute
-		for stemming: </li>
-			$python stemmed_corpus_generator.py
-			and execute the retrieval models by modifying the commented lines in each core file.
+		<ul>
+			<li>
+		for stemming: <br>
+			$python stemmed_corpus_generator.py<br>
+			and execute the retrieval models by modifying the commented lines in each core file.<br>
+			</li>
+			<li>
 		for stopping:
 			$python stopped_corpus_generator.py
 			$python stopped_query_generator.py
-			and execute the retrieval models by modifying the commented lines in each core file.
-
-	<li>To execute the Evaluation files, redirect to the Evaluation folder from the project root and execute </li>
+	 		and execute the retrieval models by modifying the commented lines in each core file.
+			</li>
+		</ul>
+        </li>
+	<li>To execute the Evaluation files, redirect to the Evaluation folder from the project root and execute <br>
 		$python evaluation_script.py
-
-	<li>To execute the Noise Generator Model, redirect to the Extra_Credit/ folder from the root folder </li>
-   to generate noise
-			execute
-				$python noise_generator.py
-		to minimize the noise
-			execute
-				$python noise_minimizer.py
+        </li>
+	<li>To execute the Noise Generator Model, redirect to the Extra_Credit/ folder from the root folder 
+		<ul>
+   <li>to generate noise<br>
+			execute<br>
+	   $python noise_generator.py</li>
+	<li>	to minimize the noise<br>
+			execute<br>
+		$python noise_minimizer.py</li>
+		</ul>
+		</li>
 </ul>
