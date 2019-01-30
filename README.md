@@ -1,27 +1,34 @@
 # Information-Retrieval-System
-Source code for the Information Retrieval Project
-Information Retrieval System:
-	This project includeds the methodology to build and compare multiple information systems. Which includes:
-		1. BM25.
-		2. Smoothed Query Likelihood.
-		3. Lucene based search.
-		4. TFIDF.
-	These are known as retrieval models, which are used to retrieve documents based on their Term Frequencies of the query terms.
+Source code for the Information Retrieval Project<br>
+Information Retrieval System:<br>
+	<p>This project includeds the methodology to build and compare multiple information systems. Which includes:
+	<ol>
+		<li> BM25.</li>
+		<li> Smoothed Query Likelihood. </li>
+		<li> Lucene based search.</li>
+		<li> TFIDF.</li>
+		</ol>
+	</p>
+	<p>These are known as retrieval models, which are used to retrieve documents based on their Term Frequencies of the query terms.
 	Also, each model modifies the term weighting in a manner to either include or exclude relevance judgements. Though our retrieval
 	models are not yet advanced to read the relevance judgments at real-time, we have ignored them during the effectiveness evaluation.
+	</p>
+	<p>
 
-	The Query Expansion is another technique to improve the input to these, in which, we have psuedo-relevance feedback to generate the
-	terms which have higher probability to co-occur.
-
+	The Query Expansion is another technique to improve the input to these, in which, we have psuedo-relevance feedback to generate the terms which have higher probability to co-occur.
+</p>
+<p>
 	The user-results are displayed in an HTML page, where the resultant document's content can be viewed in an snippet. The important   terms or in other words, highly frequent terms are highlighted in the displayed snippets.
-
-	The evaluation of these information retrieval models are performed on basis of four criterias:
-		1. Mean Average Precision
-		2. Mean Reciprocal Rank
-		3. Precision at rank = 5 and rank = 20.
-
+</p>
+	<p>The evaluation of these information retrieval models are performed on basis of three criterias:
+	<ol>
+		<li> Mean Average Precision </li>
+		<li> Mean Reciprocal Rank </li>
+		<li> Precision at rank = 5 and rank = 20. </li>
+		</ol>
+<br>
 	Their respective precision and recall values are also displayed in the seperate text file for any future evaluation purposes.
-
+</p>
 Folder Structure: (ordered by their name)
 <ul>
 	<li>Corpuses :	This folder consists of files which act as the Corpus for the above mentioned 
