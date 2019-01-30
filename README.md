@@ -59,25 +59,26 @@ Folder Structure: (ordered by their name)
 </ul>
 Execution: <br>
 <ul>
-	<li>Third-Party Libraries</li>
-		Our project uses the nltk library to perform few key operations within the process.
+	<li>Third-Party Libraries
+	 <ul>
+		<li>Our project uses the nltk library to perform few key operations within the process.
 		So, to execute our project, install nltk library from:
-			https://www.nltk.org/install.html
-
-		Our project uses the BeautifulSoup library to perform few parsing tasks. So, to execute our
+			https://www.nltk.org/install.html</li>
+               <li> Our project uses the BeautifulSoup library to perform few parsing tasks. So, to execute our
 		project, install BeautifulSoup using the pip tool:
-			$ pip install beautifulsoup4
-
-		The Lucene Search has few core JARs which are present in the "utilities" folder. Reference them to
-		your Java file before performing a build of the Java program.
-
-
-<li>	Initially execute the files </li>
-		$python corpus_generator.py
-		$python inverted_index_generator.py
-		$python corpus_statistics.py
-		
-	<li>In the Retrieval/Retrieval_Model Folder of the project, </li>
+			$ pip install beautifulsoup4 </li>
+		<li>The Lucene Search has few core JARs which are present in the "utilities" folder. Reference them to
+		your Java file before performing a build of the Java program. </li>
+	</ul>
+        </li>
+<li>	Initially execute the files 
+	<ul>
+		<li>$python corpus_generator.py</li>
+		<li>$python inverted_index_generator.py</li>
+		<li>$python corpus_statistics.py</li>
+	</ul>	
+	</li>	
+	<li>In the Retrieval/Retrieval_Model Folder of the project, 
 	1. Executing BM25_Information system:
 		$python preprocessor.py
 		$python search.py
@@ -88,7 +89,7 @@ Execution: <br>
 	4. Executing the Lucene Search Engine
 		$javac -cp *; LuceneSearchEngine.java
 		$java -cp *; LuceneSearchEngine
-
+        </li>
 	<li>To execute the Query_Expansion Model, redirect to Retrieval/Query_Expansion from the project root directory,</li>
 		$python Task-2.py
 
