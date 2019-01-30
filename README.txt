@@ -32,35 +32,26 @@ Folder Structure: (ordered by their name)
 						calculation as mentioned above. Each system is prefixed with their measure.
 						
 						For example:
-							evaluation_results.txt 			consists of the evaluation values of Mean Avergae Precision
-															and Mean Reciprocal Rank.
-							precision_at_rank_5_20_BM25		reflects the file which consists of precision values at rank = 5 and
-															rank = 20 for the all the queries given as input to the BM25.
+							evaluation_results.txt 			consists of the evaluation values of Mean Average Precision and Mean Reciprocal Rank.
+							precision_at_rank_5_20_BM25		reflects the file which consists of precision values at rank = 5 and rank = 20 for the all the queries given as input to the BM25.
 
 	Extra_Credit			This folder consists of the code and output files generated for the project's extra-credit task.
 		
-		Noise-Generator		This folder consists of the python scripts and output files which are the representation of noise-generator
-							model.
-		Noise-Minimizer		This folder consists of the python scripts and output files which are the representation of the noise-minimzer
-							model.
+		Noise-Generator		This folder consists of the python scripts and output files which are the representation of noise-generator model.
+		Noise-Minimizer		This folder consists of the python scripts and output files which are the representation of the noise-minimzer model.
 
-	Indexes				This folder consists of the intermediate files which are used to calculate the resultant scores for a query by any
-						search system.
+	Indexes				This folder consists of the intermediate files which are used to calculate the resultant scores for a query by any search system.
 
 	Retrieval 			This folder is a representation of the core activites of all the information retrieval systems.
 
-		Query_Expansion			This folder represents the python scripts and output files which are used to generate the Query-time stemming
-								model.
+		Query_Expansion			This folder represents the python scripts and output files which are used to generate the Query-time stemming model.
 		
 		Retrieval_Model			This folder consists of the core search information and tasks for all the information retrieval systems.
 
-		Stemming_and_Stopping	This folder consists of the files which represent the python scripts used to perform the stemming and stopping
-								on the corpus and induce those as the input to the information retrieval systems.
+		Stemming_and_Stopping	This folder consists of the files which represent the python scripts used to perform the stemming and stopping on the corpus and induce those as the input to the information retrieval systems.
 
-	Snippet_Generation	This folder consists of the pythin scripts which are used to generate snippets and publish the results of a query 
-						in an HTML file.
-	utilities			This folder represents the intermediate python scripts and queries which are used to provide as an input to the retrieval systems
-						tasks.
+	Snippet_Generation	This folder consists of the pythin scripts which are used to generate snippets and publish the results of a query in an HTML file.
+	utilities			This folder represents the intermediate python scripts and queries which are used to provide as an input to the retrieval systems tasks.
 
 
 Execution:
